@@ -1,0 +1,17 @@
+form.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input.input {
+  width: 99%;
+  padding: 10px 5px;
+  border-radius: 2.5px;
+  border: 1px solid royalblue;
+}
+
+input.btn.input {
+  width: 100%;
+  background: #2196f3;
+  color: white;
+}

@@ -1,0 +1,21 @@
+<form class="form" #registerForm="ngForm" (ngSubmit)="signInUser(registerForm)">
+  <div>
+    <input
+      class="input"
+      placeholder="Username"
+      type="text"
+      name="username"
+      ngModel
+    />
+  </div>
+  <div>
+    <input
+      class="input"
+      placeholder="Password"
+      type="password"
+      name="password"
+      ngModel
+    />
+  </div>
+  <input class="input btn" type="submit" value="Submit" />
+</form>

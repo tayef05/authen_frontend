@@ -1,0 +1,34 @@
+<form
+  class="form"
+  #registerForm="ngForm"
+  (ngSubmit)="registerUser(registerForm)"
+>
+  <div>
+    <input
+      class="input"
+      placeholder="Email"
+      type="email"
+      name="email"
+      ngModel
+    />
+  </div>
+  <div>
+    <input
+      class="input"
+      placeholder="Username"
+      type="text"
+      name="username"
+      ngModel
+    />
+  </div>
+  <div>
+    <input
+      class="input"
+      placeholder="Password"
+      type="password"
+      name="password"
+      ngModel
+    />
+  </div>
+  <input class="input btn" type="submit" value="Submit" />
+</form>
